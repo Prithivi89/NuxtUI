@@ -25,6 +25,9 @@ $ git push -u origin master
 $ git remote add origin https://github.com/Prithivi89/NuxtUI.git
 $ git push -u origin master
 
+# git branch
+$ git branch nuxtuidev
+$ git checkout nuxtuidev
 ```
 
 
