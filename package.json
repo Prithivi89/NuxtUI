@@ -13,13 +13,43 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "axios": "^0.16.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "nuxt": "^1.0.0",
+    "qs": "^6.5.1",
+    "vue-d3-network": "^0.1.24",
+    "vue-dynamic-forms": "^1.1.0",
+    "vue-grid-layout": "^2.1.11",
+    "vue-json-schema": "1.1.0",
+    "vue2-highcharts": "1.1.6",
+    "vuetify": "^1.0.1",
+    "whatwg-fetch": "^2.0.3",
+    "google-charts": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.1",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-html": "4.0.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "stylus": "^0.54.5",
+  },
+  "engines": {
+    "node": "=8.9.4"
+  },
+  "config": {
+    "port": "8080"
   }
 }
