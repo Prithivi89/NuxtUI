@@ -21,6 +21,9 @@ $ git commit -m "first commit"
 $ git remote add origin https://github.com/Prithivi89/NuxtUI.git
 $ git push -u origin master
 
+$ git log
+$ git status
+
 # …or push an existing repository from the command line
 $ git remote add origin https://github.com/Prithivi89/NuxtUI.git
 $ git push -u origin master
@@ -28,6 +31,11 @@ $ git push -u origin master
 # git branch
 $ git branch nuxtuidev
 $ git checkout nuxtuidev
+$ git push
+
+# git merge 
+$ git merge nuxtuidev  (Before executing command checkout master)
+$ git push
 ```
 
 
