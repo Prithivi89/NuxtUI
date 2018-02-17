@@ -32,6 +32,7 @@ $ git push -u origin master
 $ git branch nuxtuidev
 $ git checkout nuxtuidev
 $ git push
+$ git branch -d nuxtuidev (For branch deletion)
 
 # git merge 
 $ git merge nuxtuidev  (Before executing command checkout master)
