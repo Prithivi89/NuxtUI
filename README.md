@@ -2,6 +2,31 @@
 
 > A NuxtUI Project
 
+## Prerequisite
+``` bash
+# install vuecli
+$ npm install -g vue-cli
+
+# install nuxt
+$ npm install --save nuxt
+
+```
+
+## git Commands
+``` bash
+# git basic commands
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/Prithivi89/NuxtUI.git
+$ git push -u origin master
+
+# …or push an existing repository from the command line
+$ git remote add origin https://github.com/Prithivi89/NuxtUI.git
+$ git push -u origin master
+
+```
+
 
 ## Build Setup
 
